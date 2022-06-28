@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  background: #efefef;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+h5{
+  margin-left: 10px;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0; bottom: 0; left: 0;
+  box-shadow: 0 10px 6px rgb(167, 167, 167);
+  min-height: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+header > div {
+  margin-top: 5%;
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 20px 30px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+form input,
+textarea {
+  width: 80%;
+  padding: 15px 15px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+form input:focus,
+textarea:focus {
+  cursor: unset;
+  border-bottom: 1px solid rgb(63, 105, 63);
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  width: 40%;
+  border: none;
+  cursor: pointer;
+  background: #000;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: green;
+}
+
+@media screen and (max-width: 768px){
+	h5{
+	   width: 95%;
+	   text-align: center;
+	}
+	form{
+	   width: 100%;
+	   margin-top: 10%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
